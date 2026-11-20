@@ -43,6 +43,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Backpropagate Through a Scalar Neuron | Evaluate one tanh neuron and manually propagate an upstream gradient to its inputs, weights, and bias. | https://www.tensortonic.com/problems/autograd-l04-neuron-backward |
 | Evaluate a Scalar Neuron | Evaluate a scalar PyTorch tanh neuron from aligned inputs, weights, and bias using promoted floating-point types. | https://www.tensortonic.com/problems/autograd-l04-neuron-forward |
 | Apply Local Vector-Jacobian Rules | A reverse-mode autodiff engine moves an upstream scalar gradient through one operation at a time. | https://www.tensortonic.com/problems/autograd-l05-local-vjp-rules |
+| Topologically Sort a Computation DAG | Reverse-mode autodiff must process children before their parents during the backward pass. | https://www.tensortonic.com/problems/autograd-l05-topological-sort |
 | Evaluate a Dense Layer | Evaluate a PyTorch layer of independent scalar neurons sharing one input vector, with optional elementwise tanh. | https://www.tensortonic.com/problems/autograd-l07-dense-layer-forward |
 | Build a Scalar Neuron Module | Evaluate a supplied scalar PyTorch neuron in linear or tanh mode while preserving the input dtype and device. | https://www.tensortonic.com/problems/autograd-l07-scalar-neuron-module |
 | Train a Tiny Micrograd MLP | Train a supplied scalar-output MLP with manual reverse-mode differentiation and deterministic gradient descent. | https://www.tensortonic.com/problems/autograd-l08-train-tiny-micrograd-mlp |
